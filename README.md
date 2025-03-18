@@ -71,5 +71,9 @@ PROJECT JOBPORTAL-FE/
 │   └── App.css
 └── README.md
 ```
+###  Public Directory
+
+  FOR EMPLOYER: email: 'admin@gmail.com', password: 'Password123', role: 'Employer'
+  FOR JOB-SEEKER: email: 'tester123@gmail.com', password: 'Password123',  role: 'Job Seeker'
 
 
