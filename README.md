@@ -1,4 +1,4 @@
-# PROJECT-JOBPORTAL-FE
+# PROJECT-CAREERBRIDGE
 
 ## Introduction
 
