@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to **PROJECT CAREERBRIDGE**, a comprehensive job-seeking portal designed to connect job seekers with potential employers. This project provides an intuitive user interface to browse job listings, apply for jobs, and interact with an AI-powered chatbot for assistance. The application is structured to ensure a seamless user experience with a well-organized codebase.
+Welcome to **CAREERBRIDGE**, a comprehensive job-seeking portal designed to connect job seekers with potential employers. This project provides an intuitive user interface to browse job listings, apply for jobs, and interact with an AI-powered chatbot for assistance. The application is structured to ensure a seamless user experience with a well-organized codebase.
 
 ## Project Structure
 
