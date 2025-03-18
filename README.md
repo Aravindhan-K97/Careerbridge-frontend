@@ -1,12 +1,75 @@
-# React + Vite
+# PROJECT-JOBPORTAL-FE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+Welcome to **PROJECT CAREERBRIDGE**, a comprehensive job-seeking portal designed to connect job seekers with potential employers. This project provides an intuitive user interface to browse job listings, apply for jobs, and interact with an AI-powered chatbot for assistance. The application is structured to ensure a seamless user experience with a well-organized codebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## Expanding the ESLint configuration
+The project is organized into two main directories: `public` and `src`.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Public Directory
+
+The `public` directory contains static assets such as CVs and PNG images used across the application.
+
+- **public/**
+  - **cv/**: Contains sample CVs and resume templates.
+  - **images/**: Includes all PNG images used in the application.
+
+### 2. Src Directory
+
+The `src` directory is the heart of the project, containing all the main components and logic of the application. It is further divided into several subdirectories or components:
+
+- **components/**: Contains reusable UI components.
+  - **Application/**: Manages the application process, including job applications.
+  - **Auth/**: Handles authentication processes such as login and registration.
+  - **Chatbot/**: Integrates an AI-powered chatbot for user assistance.
+  - **Home/**: Contains components for the homepage.
+  - **Job/**: Manages job listings and job details.
+  - **Layout/**: Contains layout components such as headers and footers.
+  - **PageNotFound/**: Displays a 404 error page for unknown routes.
+
+Each of these directories includes relevant JSX, CSS, and main files necessary for the component's functionality.
+
+## File Structure
+
+```
+PROJECT JOBPORTAL-FE/
+├── public/
+│   ├── cv/
+│   │   └── sample-cv.pdf
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── banner.png
+├── src/components/
+│   ├── Application/
+│   │   ├── Application.jsx
+│   │   └── Application.css
+│   ├── Auth/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── Auth.css
+│   ├── Chatbot/
+│   │   ├── Chatbot.jsx
+│   │   └── Chatbot.css
+│   ├── Home/
+│   │   ├── Home.jsx
+│   │   └── Home.css
+│   ├── Job/
+│   │   ├── JobList.jsx
+│   │   ├── JobDetail.jsx
+│   │   └── Job.css
+│   ├── Layout/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   └── Layout.css
+│   ├── PageNotFound/
+│   │   ├── PageNotFound.jsx
+│   │   └── PageNotFound.css
+│   ├── index.js
+│   ├── App.js
+│   └── App.css
+└── README.md
+```
+
+
